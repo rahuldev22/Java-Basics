@@ -16,17 +16,17 @@ public class JavaBasics {
 
 class outer 
 {
-    int a;
+    int x;
     public void show()
     {
-        System.out.println("in Show");
+        System.out.println("In Show");
     }
     
     class inner                                 // static inner class{}  **** is also alowed 
     {                                           // for calling static method outer.inner.method is used 
          public void display()
          {
-             System.out.println("in Display");
+             System.out.println("In Display");
          }
     }
     
