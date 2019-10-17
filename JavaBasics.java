@@ -19,14 +19,14 @@ class outer
     int x;
     public void show()
     {
-        System.out.println("In Show");
+        System.out.println("I'm in show method...");
     }
     
     class inner                                 // static inner class{}  **** is also alowed 
     {                                           // for calling static method outer.inner.method is used 
          public void display()
          {
-             System.out.println("In Display");
+             System.out.println("I'm in display method...");
          }
     }
     
